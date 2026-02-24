@@ -5,7 +5,7 @@ def create_customer(name: str, email: str):
     Creates a new customer in the CRM system.
     """
     response = requests.post(
-        "https://your-api-id.execute-api.region.amazonaws.com/prod/onboarding",
+        "https://0m9rrsy307.execute-api.us-east-1.amazonaws.com/prod/onbaording",
         json={
             "name": name,
             "email": email
